@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030C6C2C1E13D5BD003CB694 /* chatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030C6C2A1E13D5BD003CB694 /* chatViewController.m */; };
+		030C6C2D1E13D5BD003CB694 /* chatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030C6C2B1E13D5BD003CB694 /* chatViewController.xib */; };
+		0338C0061E0E8784008489CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0338C0051E0E8784008489CB /* main.m */; };
+		0338C0091E0E8784008489CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0338C0081E0E8784008489CB /* AppDelegate.m */; };
+		0338C0111E0E8785008489CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0101E0E8785008489CB /* Assets.xcassets */; };
+		0338C0141E0E8785008489CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0121E0E8785008489CB /* LaunchScreen.storyboard */; };
+		0338C01F1E0E8785008489CB /* stickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0338C01E1E0E8785008489CB /* stickerTests.m */; };
+		0338C02A1E0E8785008489CB /* stickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0338C0291E0E8785008489CB /* stickerUITests.m */; };
+		0338C0561E0E8D04008489CB /* 图形1_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0381E0E8D04008489CB /* 图形1_03.png */; };
+		0338C0571E0E8D04008489CB /* 图形1_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0391E0E8D04008489CB /* 图形1_05.png */; };
+		0338C0581E0E8D04008489CB /* 图形1_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C03A1E0E8D04008489CB /* 图形1_07.png */; };
+		0338C0591E0E8D04008489CB /* 图形1_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C03B1E0E8D04008489CB /* 图形1_09.png */; };
+		0338C05A1E0E8D04008489CB /* 图形1_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C03C1E0E8D04008489CB /* 图形1_12.png */; };
+		0338C05B1E0E8D04008489CB /* 图形1_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C03D1E0E8D04008489CB /* 图形1_19.png */; };
+		0338C05C1E0E8D04008489CB /* 图形1_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C03E1E0E8D04008489CB /* 图形1_21.png */; };
+		0338C05D1E0E8D04008489CB /* 图形1_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C03F1E0E8D04008489CB /* 图形1_23.png */; };
+		0338C05E1E0E8D04008489CB /* 图形1_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0401E0E8D04008489CB /* 图形1_26.png */; };
+		0338C05F1E0E8D04008489CB /* 图形1_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0411E0E8D04008489CB /* 图形1_29.png */; };
+		0338C0601E0E8D04008489CB /* 图形1_36.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0421E0E8D04008489CB /* 图形1_36.png */; };
+		0338C0611E0E8D04008489CB /* 图形1_38.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0431E0E8D04008489CB /* 图形1_38.png */; };
+		0338C0621E0E8D04008489CB /* 图形1_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0441E0E8D04008489CB /* 图形1_40.png */; };
+		0338C0631E0E8D04008489CB /* 图形1_42.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0451E0E8D04008489CB /* 图形1_42.png */; };
+		0338C0641E0E8D04008489CB /* 图形1_43.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0461E0E8D04008489CB /* 图形1_43.png */; };
+		0338C0651E0E8D04008489CB /* 图形1_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0471E0E8D04008489CB /* 图形1_50.png */; };
+		0338C0661E0E8D04008489CB /* 图形1_52.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0481E0E8D04008489CB /* 图形1_52.png */; };
+		0338C0671E0E8D04008489CB /* 图形1_55.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0491E0E8D04008489CB /* 图形1_55.png */; };
+		0338C0681E0E8D04008489CB /* 图形1_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C04A1E0E8D04008489CB /* 图形1_57.png */; };
+		0338C0691E0E8D04008489CB /* 图形1_60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C04B1E0E8D04008489CB /* 图形1_60.png */; };
+		0338C06A1E0E8D04008489CB /* 图形1_68.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C04C1E0E8D04008489CB /* 图形1_68.png */; };
+		0338C06B1E0E8D04008489CB /* 图形1_70.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C04D1E0E8D04008489CB /* 图形1_70.png */; };
+		0338C06C1E0E8D04008489CB /* 图形1_73.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C04E1E0E8D04008489CB /* 图形1_73.png */; };
+		0338C06D1E0E8D04008489CB /* 图形1_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C04F1E0E8D04008489CB /* 图形1_76.png */; };
+		0338C06E1E0E8D04008489CB /* 图形1_78.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0501E0E8D04008489CB /* 图形1_78.png */; };
+		0338C06F1E0E8D04008489CB /* 图形1_86.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0511E0E8D04008489CB /* 图形1_86.png */; };
+		0338C0701E0E8D04008489CB /* 图形1_89.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0521E0E8D04008489CB /* 图形1_89.png */; };
+		0338C0711E0E8D04008489CB /* 图形1_92.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0531E0E8D04008489CB /* 图形1_92.png */; };
+		0338C0721E0E8D04008489CB /* 图形1_94.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0541E0E8D04008489CB /* 图形1_94.png */; };
+		0338C0731E0E8D04008489CB /* 图形1_96.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0551E0E8D04008489CB /* 图形1_96.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0338C01B1E0E8785008489CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0338BFF91E0E8784008489CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0338C0001E0E8784008489CB;
+			remoteInfo = sticker;
+		};
+		0338C0261E0E8785008489CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0338BFF91E0E8784008489CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0338C0001E0E8784008489CB;
+			remoteInfo = sticker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030C6C291E13D5BD003CB694 /* chatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatViewController.h; sourceTree = "<group>"; };
+		030C6C2A1E13D5BD003CB694 /* chatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatViewController.m; sourceTree = "<group>"; };
+		030C6C2B1E13D5BD003CB694 /* chatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chatViewController.xib; sourceTree = "<group>"; };
+		0338C0011E0E8784008489CB /* sticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0338C0051E0E8784008489CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0338C0071E0E8784008489CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0338C0081E0E8784008489CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0338C0101E0E8785008489CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0338C0131E0E8785008489CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0338C0151E0E8785008489CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0338C01A1E0E8785008489CB /* stickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0338C01E1E0E8785008489CB /* stickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stickerTests.m; sourceTree = "<group>"; };
+		0338C0201E0E8785008489CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0338C0251E0E8785008489CB /* stickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0338C0291E0E8785008489CB /* stickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stickerUITests.m; sourceTree = "<group>"; };
+		0338C02B1E0E8785008489CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0338C0381E0E8D04008489CB /* 图形1_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_03.png"; sourceTree = "<group>"; };
+		0338C0391E0E8D04008489CB /* 图形1_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_05.png"; sourceTree = "<group>"; };
+		0338C03A1E0E8D04008489CB /* 图形1_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_07.png"; sourceTree = "<group>"; };
+		0338C03B1E0E8D04008489CB /* 图形1_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_09.png"; sourceTree = "<group>"; };
+		0338C03C1E0E8D04008489CB /* 图形1_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_12.png"; sourceTree = "<group>"; };
+		0338C03D1E0E8D04008489CB /* 图形1_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_19.png"; sourceTree = "<group>"; };
+		0338C03E1E0E8D04008489CB /* 图形1_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_21.png"; sourceTree = "<group>"; };
+		0338C03F1E0E8D04008489CB /* 图形1_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_23.png"; sourceTree = "<group>"; };
+		0338C0401E0E8D04008489CB /* 图形1_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_26.png"; sourceTree = "<group>"; };
+		0338C0411E0E8D04008489CB /* 图形1_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_29.png"; sourceTree = "<group>"; };
+		0338C0421E0E8D04008489CB /* 图形1_36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_36.png"; sourceTree = "<group>"; };
+		0338C0431E0E8D04008489CB /* 图形1_38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_38.png"; sourceTree = "<group>"; };
+		0338C0441E0E8D04008489CB /* 图形1_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_40.png"; sourceTree = "<group>"; };
+		0338C0451E0E8D04008489CB /* 图形1_42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_42.png"; sourceTree = "<group>"; };
+		0338C0461E0E8D04008489CB /* 图形1_43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_43.png"; sourceTree = "<group>"; };
+		0338C0471E0E8D04008489CB /* 图形1_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_50.png"; sourceTree = "<group>"; };
+		0338C0481E0E8D04008489CB /* 图形1_52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_52.png"; sourceTree = "<group>"; };
+		0338C0491E0E8D04008489CB /* 图形1_55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_55.png"; sourceTree = "<group>"; };
+		0338C04A1E0E8D04008489CB /* 图形1_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_57.png"; sourceTree = "<group>"; };
+		0338C04B1E0E8D04008489CB /* 图形1_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_60.png"; sourceTree = "<group>"; };
+		0338C04C1E0E8D04008489CB /* 图形1_68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_68.png"; sourceTree = "<group>"; };
+		0338C04D1E0E8D04008489CB /* 图形1_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_70.png"; sourceTree = "<group>"; };
+		0338C04E1E0E8D04008489CB /* 图形1_73.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_73.png"; sourceTree = "<group>"; };
+		0338C04F1E0E8D04008489CB /* 图形1_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_76.png"; sourceTree = "<group>"; };
+		0338C0501E0E8D04008489CB /* 图形1_78.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_78.png"; sourceTree = "<group>"; };
+		0338C0511E0E8D04008489CB /* 图形1_86.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_86.png"; sourceTree = "<group>"; };
+		0338C0521E0E8D04008489CB /* 图形1_89.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_89.png"; sourceTree = "<group>"; };
+		0338C0531E0E8D04008489CB /* 图形1_92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_92.png"; sourceTree = "<group>"; };
+		0338C0541E0E8D04008489CB /* 图形1_94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_94.png"; sourceTree = "<group>"; };
+		0338C0551E0E8D04008489CB /* 图形1_96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_96.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0338BFFE1E0E8784008489CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0338C0171E0E8785008489CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0338C0221E0E8785008489CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0338BFF81E0E8784008489CB = {
+			isa = PBXGroup;
+			children = (
+				0338C0031E0E8784008489CB /* sticker */,
+				0338C01D1E0E8785008489CB /* stickerTests */,
+				0338C0281E0E8785008489CB /* stickerUITests */,
+				0338C0021E0E8784008489CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0338C0021E0E8784008489CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0338C0011E0E8784008489CB /* sticker.app */,
+				0338C01A1E0E8785008489CB /* stickerTests.xctest */,
+				0338C0251E0E8785008489CB /* stickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0338C0031E0E8784008489CB /* sticker */ = {
+			isa = PBXGroup;
+			children = (
+				0338C0071E0E8784008489CB /* AppDelegate.h */,
+				0338C0081E0E8784008489CB /* AppDelegate.m */,
+				030C6C291E13D5BD003CB694 /* chatViewController.h */,
+				030C6C2A1E13D5BD003CB694 /* chatViewController.m */,
+				030C6C2B1E13D5BD003CB694 /* chatViewController.xib */,
+				0338C0101E0E8785008489CB /* Assets.xcassets */,
+				0338C0121E0E8785008489CB /* LaunchScreen.storyboard */,
+				0338C0151E0E8785008489CB /* Info.plist */,
+				0338C0041E0E8784008489CB /* Supporting Files */,
+			);
+			path = sticker;
+			sourceTree = "<group>";
+		};
+		0338C0041E0E8784008489CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0338C0371E0E8CEE008489CB /* stikers */,
+				0338C0051E0E8784008489CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0338C01D1E0E8785008489CB /* stickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0338C01E1E0E8785008489CB /* stickerTests.m */,
+				0338C0201E0E8785008489CB /* Info.plist */,
+			);
+			path = stickerTests;
+			sourceTree = "<group>";
+		};
+		0338C0281E0E8785008489CB /* stickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0338C0291E0E8785008489CB /* stickerUITests.m */,
+				0338C02B1E0E8785008489CB /* Info.plist */,
+			);
+			path = stickerUITests;
+			sourceTree = "<group>";
+		};
+		0338C0371E0E8CEE008489CB /* stikers */ = {
+			isa = PBXGroup;
+			children = (
+				0338C0381E0E8D04008489CB /* 图形1_03.png */,
+				0338C0391E0E8D04008489CB /* 图形1_05.png */,
+				0338C03A1E0E8D04008489CB /* 图形1_07.png */,
+				0338C03B1E0E8D04008489CB /* 图形1_09.png */,
+				0338C03C1E0E8D04008489CB /* 图形1_12.png */,
+				0338C03D1E0E8D04008489CB /* 图形1_19.png */,
+				0338C03E1E0E8D04008489CB /* 图形1_21.png */,
+				0338C03F1E0E8D04008489CB /* 图形1_23.png */,
+				0338C0401E0E8D04008489CB /* 图形1_26.png */,
+				0338C0411E0E8D04008489CB /* 图形1_29.png */,
+				0338C0421E0E8D04008489CB /* 图形1_36.png */,
+				0338C0431E0E8D04008489CB /* 图形1_38.png */,
+				0338C0441E0E8D04008489CB /* 图形1_40.png */,
+				0338C0451E0E8D04008489CB /* 图形1_42.png */,
+				0338C0461E0E8D04008489CB /* 图形1_43.png */,
+				0338C0471E0E8D04008489CB /* 图形1_50.png */,
+				0338C0481E0E8D04008489CB /* 图形1_52.png */,
+				0338C0491E0E8D04008489CB /* 图形1_55.png */,
+				0338C04A1E0E8D04008489CB /* 图形1_57.png */,
+				0338C04B1E0E8D04008489CB /* 图形1_60.png */,
+				0338C04C1E0E8D04008489CB /* 图形1_68.png */,
+				0338C04D1E0E8D04008489CB /* 图形1_70.png */,
+				0338C04E1E0E8D04008489CB /* 图形1_73.png */,
+				0338C04F1E0E8D04008489CB /* 图形1_76.png */,
+				0338C0501E0E8D04008489CB /* 图形1_78.png */,
+				0338C0511E0E8D04008489CB /* 图形1_86.png */,
+				0338C0521E0E8D04008489CB /* 图形1_89.png */,
+				0338C0531E0E8D04008489CB /* 图形1_92.png */,
+				0338C0541E0E8D04008489CB /* 图形1_94.png */,
+				0338C0551E0E8D04008489CB /* 图形1_96.png */,
+			);
+			name = stikers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0338C0001E0E8784008489CB /* sticker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0338C02E1E0E8785008489CB /* Build configuration list for PBXNativeTarget "sticker" */;
+			buildPhases = (
+				0338BFFD1E0E8784008489CB /* Sources */,
+				0338BFFE1E0E8784008489CB /* Frameworks */,
+				0338BFFF1E0E8784008489CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sticker;
+			productName = sticker;
+			productReference = 0338C0011E0E8784008489CB /* sticker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0338C0191E0E8785008489CB /* stickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0338C0311E0E8785008489CB /* Build configuration list for PBXNativeTarget "stickerTests" */;
+			buildPhases = (
+				0338C0161E0E8785008489CB /* Sources */,
+				0338C0171E0E8785008489CB /* Frameworks */,
+				0338C0181E0E8785008489CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0338C01C1E0E8785008489CB /* PBXTargetDependency */,
+			);
+			name = stickerTests;
+			productName = stickerTests;
+			productReference = 0338C01A1E0E8785008489CB /* stickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0338C0241E0E8785008489CB /* stickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0338C0341E0E8785008489CB /* Build configuration list for PBXNativeTarget "stickerUITests" */;
+			buildPhases = (
+				0338C0211E0E8785008489CB /* Sources */,
+				0338C0221E0E8785008489CB /* Frameworks */,
+				0338C0231E0E8785008489CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0338C0271E0E8785008489CB /* PBXTargetDependency */,
+			);
+			name = stickerUITests;
+			productName = stickerUITests;
+			productReference = 0338C0251E0E8785008489CB /* stickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0338BFF91E0E8784008489CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ichiban;
+				TargetAttributes = {
+					0338C0001E0E8784008489CB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = S32KYTFZ7Z;
+						ProvisioningStyle = Automatic;
+					};
+					0338C0191E0E8785008489CB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = S32KYTFZ7Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0338C0001E0E8784008489CB;
+					};
+					0338C0241E0E8785008489CB = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = S32KYTFZ7Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0338C0001E0E8784008489CB;
+					};
+				};
+			};
+			buildConfigurationList = 0338BFFC1E0E8784008489CB /* Build configuration list for PBXProject "sticker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0338BFF81E0E8784008489CB;
+			productRefGroup = 0338C0021E0E8784008489CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0338C0001E0E8784008489CB /* sticker */,
+				0338C0191E0E8785008489CB /* stickerTests */,
+				0338C0241E0E8785008489CB /* stickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0338BFFF1E0E8784008489CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0338C05A1E0E8D04008489CB /* 图形1_12.png in Resources */,
+				0338C0691E0E8D04008489CB /* 图形1_60.png in Resources */,
+				030C6C2D1E13D5BD003CB694 /* chatViewController.xib in Resources */,
+				0338C06F1E0E8D04008489CB /* 图形1_86.png in Resources */,
+				0338C0681E0E8D04008489CB /* 图形1_57.png in Resources */,
+				0338C0671E0E8D04008489CB /* 图形1_55.png in Resources */,
+				0338C0711E0E8D04008489CB /* 图形1_92.png in Resources */,
+				0338C0621E0E8D04008489CB /* 图形1_40.png in Resources */,
+				0338C0641E0E8D04008489CB /* 图形1_43.png in Resources */,
+				0338C0581E0E8D04008489CB /* 图形1_07.png in Resources */,
+				0338C06B1E0E8D04008489CB /* 图形1_70.png in Resources */,
+				0338C0611E0E8D04008489CB /* 图形1_38.png in Resources */,
+				0338C05F1E0E8D04008489CB /* 图形1_29.png in Resources */,
+				0338C05C1E0E8D04008489CB /* 图形1_21.png in Resources */,
+				0338C0701E0E8D04008489CB /* 图形1_89.png in Resources */,
+				0338C06D1E0E8D04008489CB /* 图形1_76.png in Resources */,
+				0338C06C1E0E8D04008489CB /* 图形1_73.png in Resources */,
+				0338C05B1E0E8D04008489CB /* 图形1_19.png in Resources */,
+				0338C06A1E0E8D04008489CB /* 图形1_68.png in Resources */,
+				0338C05D1E0E8D04008489CB /* 图形1_23.png in Resources */,
+				0338C06E1E0E8D04008489CB /* 图形1_78.png in Resources */,
+				0338C0591E0E8D04008489CB /* 图形1_09.png in Resources */,
+				0338C0561E0E8D04008489CB /* 图形1_03.png in Resources */,
+				0338C0141E0E8785008489CB /* LaunchScreen.storyboard in Resources */,
+				0338C0661E0E8D04008489CB /* 图形1_52.png in Resources */,
+				0338C0571E0E8D04008489CB /* 图形1_05.png in Resources */,
+				0338C0731E0E8D04008489CB /* 图形1_96.png in Resources */,
+				0338C0631E0E8D04008489CB /* 图形1_42.png in Resources */,
+				0338C0721E0E8D04008489CB /* 图形1_94.png in Resources */,
+				0338C0601E0E8D04008489CB /* 图形1_36.png in Resources */,
+				0338C05E1E0E8D04008489CB /* 图形1_26.png in Resources */,
+				0338C0111E0E8785008489CB /* Assets.xcassets in Resources */,
+				0338C0651E0E8D04008489CB /* 图形1_50.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0338C0181E0E8785008489CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0338C0231E0E8785008489CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0338BFFD1E0E8784008489CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0338C0091E0E8784008489CB /* AppDelegate.m in Sources */,
+				030C6C2C1E13D5BD003CB694 /* chatViewController.m in Sources */,
+				0338C0061E0E8784008489CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0338C0161E0E8785008489CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0338C01F1E0E8785008489CB /* stickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0338C0211E0E8785008489CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0338C02A1E0E8785008489CB /* stickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0338C01C1E0E8785008489CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0338C0001E0E8784008489CB /* sticker */;
+			targetProxy = 0338C01B1E0E8785008489CB /* PBXContainerItemProxy */;
+		};
+		0338C0271E0E8785008489CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0338C0001E0E8784008489CB /* sticker */;
+			targetProxy = 0338C0261E0E8785008489CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0338C0121E0E8785008489CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0338C0131E0E8785008489CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0338C02C1E0E8785008489CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0338C02D1E0E8785008489CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0338C02F1E0E8785008489CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S32KYTFZ7Z;
+				INFOPLIST_FILE = sticker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichiban.sticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0338C0301E0E8785008489CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S32KYTFZ7Z;
+				INFOPLIST_FILE = sticker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichiban.sticker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0338C0321E0E8785008489CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S32KYTFZ7Z;
+				INFOPLIST_FILE = stickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichiban.stickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sticker.app/sticker";
+			};
+			name = Debug;
+		};
+		0338C0331E0E8785008489CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S32KYTFZ7Z;
+				INFOPLIST_FILE = stickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichiban.stickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sticker.app/sticker";
+			};
+			name = Release;
+		};
+		0338C0351E0E8785008489CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S32KYTFZ7Z;
+				INFOPLIST_FILE = stickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichiban.stickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sticker;
+			};
+			name = Debug;
+		};
+		0338C0361E0E8785008489CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S32KYTFZ7Z;
+				INFOPLIST_FILE = stickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ichiban.stickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sticker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0338BFFC1E0E8784008489CB /* Build configuration list for PBXProject "sticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0338C02C1E0E8785008489CB /* Debug */,
+				0338C02D1E0E8785008489CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0338C02E1E0E8785008489CB /* Build configuration list for PBXNativeTarget "sticker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0338C02F1E0E8785008489CB /* Debug */,
+				0338C0301E0E8785008489CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0338C0311E0E8785008489CB /* Build configuration list for PBXNativeTarget "stickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0338C0321E0E8785008489CB /* Debug */,
+				0338C0331E0E8785008489CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0338C0341E0E8785008489CB /* Build configuration list for PBXNativeTarget "stickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0338C0351E0E8785008489CB /* Debug */,
+				0338C0361E0E8785008489CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0338BFF91E0E8784008489CB /* Project object */;
+}
