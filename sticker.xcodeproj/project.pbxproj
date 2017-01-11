@@ -45,6 +45,7 @@
 		0338C0711E0E8D04008489CB /* 图形1_92.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0531E0E8D04008489CB /* 图形1_92.png */; };
 		0338C0721E0E8D04008489CB /* 图形1_94.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0541E0E8D04008489CB /* 图形1_94.png */; };
 		0338C0731E0E8D04008489CB /* 图形1_96.png in Resources */ = {isa = PBXBuildFile; fileRef = 0338C0551E0E8D04008489CB /* 图形1_96.png */; };
+		03D1479B1E262E3D00747F5F /* UIViewController+YTPAccessoryInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D1479A1E262E3D00747F5F /* UIViewController+YTPAccessoryInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +112,8 @@
 		0338C0531E0E8D04008489CB /* 图形1_92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_92.png"; sourceTree = "<group>"; };
 		0338C0541E0E8D04008489CB /* 图形1_94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_94.png"; sourceTree = "<group>"; };
 		0338C0551E0E8D04008489CB /* 图形1_96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "图形1_96.png"; sourceTree = "<group>"; };
+		03D147991E262E3D00747F5F /* UIViewController+YTPAccessoryInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YTPAccessoryInputView.h"; sourceTree = "<group>"; };
+		03D1479A1E262E3D00747F5F /* UIViewController+YTPAccessoryInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YTPAccessoryInputView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 		0338C0031E0E8784008489CB /* sticker */ = {
 			isa = PBXGroup;
 			children = (
+				03D147991E262E3D00747F5F /* UIViewController+YTPAccessoryInputView.h */,
+				03D1479A1E262E3D00747F5F /* UIViewController+YTPAccessoryInputView.m */,
 				0338C0071E0E8784008489CB /* AppDelegate.h */,
 				0338C0081E0E8784008489CB /* AppDelegate.m */,
 				030C6C291E13D5BD003CB694 /* chatViewController.h */,
@@ -407,6 +412,7 @@
 				0338C0091E0E8784008489CB /* AppDelegate.m in Sources */,
 				030C6C2C1E13D5BD003CB694 /* chatViewController.m in Sources */,
 				0338C0061E0E8784008489CB /* main.m in Sources */,
+				03D1479B1E262E3D00747F5F /* UIViewController+YTPAccessoryInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

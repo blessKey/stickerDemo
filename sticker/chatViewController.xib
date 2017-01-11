@@ -11,11 +11,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="chatViewController">
             <connections>
-                <outlet property="chatTableView" destination="kSG-r5-RXW" id="QOd-Lg-mKG"/>
-                <outlet property="chatTextField" destination="tZ9-VH-Xhp" id="oRb-rU-wlo"/>
-                <outlet property="chatViewBottomConstains" destination="vF1-4b-r7R" id="UIF-yg-HGV"/>
-                <outlet property="faceButton" destination="AoJ-mk-dSx" id="H7Y-X7-LVG"/>
-                <outlet property="stickerView" destination="5aX-n3-fCr" id="yNb-VG-w3u"/>
+                <outlet property="chatTableView" destination="kSG-r5-RXW" id="zbT-OO-fJl"/>
+                <outlet property="chatTextField" destination="tZ9-VH-Xhp" id="Yz6-DO-Bch"/>
+                <outlet property="chatView" destination="eb4-IM-6li" id="Ujd-c7-K1l"/>
+                <outlet property="chatViewBottomConstains" destination="vF1-4b-r7R" id="0VJ-xE-vaS"/>
+                <outlet property="faceButton" destination="AoJ-mk-dSx" id="qZ1-Wp-oW7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -46,7 +46,7 @@
                             <state key="normal" title="😊"/>
                             <state key="selected" title="⌨️"/>
                             <connections>
-                                <action selector="faceButton:" destination="-1" eventType="touchUpInside" id="ij4-es-dAd"/>
+                                <action selector="faceButton:" destination="-1" eventType="touchUpInside" id="oEw-rv-TPw"/>
                             </connections>
                         </button>
                     </subviews>
@@ -81,7 +81,7 @@
                 <constraint firstAttribute="bottom" secondItem="eb4-IM-6li" secondAttribute="bottom" id="vF1-4b-r7R"/>
                 <constraint firstItem="5aX-n3-fCr" firstAttribute="top" secondItem="eb4-IM-6li" secondAttribute="bottom" id="yz2-Rt-SUs"/>
             </constraints>
-            <point key="canvasLocation" x="32.5" y="74.5"/>
+            <point key="canvasLocation" x="246" y="89"/>
         </view>
     </objects>
 </document>
